@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+title: Hexo-demo #网站标题
+subtitle: hexo is simple and easy to study #网站副标题
+description: this is hexo-demo #网栈描述
+author: pomy #你的名字
+language: zh-CN #网站使用的语言
+timezone: Asia/Shanghai #网站时区
