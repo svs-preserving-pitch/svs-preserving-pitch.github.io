@@ -22,3 +22,6 @@ and can characterize the intrinsic structure of pitches to obtain better pitch s
 |Recording| Baseline | Baseline + pm | Baseline + pc | Baseline + pm + pc |
 |      -  |     -    |     -         |        -      |           -        |
 | <audio src="white.wav">a</audio> |          |               |               |                    |
+<audio src="/i/horse.ogg" controls="controls">
+Your browser does not support the audio element.
+</audio>
