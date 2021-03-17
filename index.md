@@ -21,4 +21,5 @@ and can characterize the intrinsic structure of pitches to obtain better pitch s
 
 |Recording| Baseline | Baseline + pm | Baseline + pc | Baseline + pm + pc |
 |      -  |     -    |     -         |        -      |           -        |
-|         |          |               |               |                    |
+| <audio src="white.wav"></audio>
+  |          |               |               |                    |
