@@ -19,7 +19,9 @@ and can characterize the intrinsic structure of pitches to obtain better pitch s
 ---
 ## Some synthesized samples
 
-|Recording| Baseline | Baseline + pm | Baseline + pc | Baseline + pm + pc |
-|      -  |     -    |     -         |        -      |           -        |
-| <audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |    <audio id="audio" controls="" preload="none"><source id="w" src="white.wav">       |           <audio id="audio" controls="" preload="none"><source id="w" src="white.wav">     |         <audio id="audio" controls="" preload="none"><source id="w" src="white.wav">       |             <audio id="audio" controls="" preload="none"><source id="w" src="white.wav">        |
-<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> 
+
+|Baseline  | <audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
+|-|-|-|
+| Baseline + pm|||
+| Baseline + pc|||
+| Baseline + pm + pc|||
