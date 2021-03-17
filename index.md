@@ -20,8 +20,9 @@ and can characterize the intrinsic structure of pitches to obtain better pitch s
 ## Some synthesized samples
 
 
-|Baseline  | <audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
-|-|-|-|
-| Baseline + pm|||
-| Baseline + pc|||
-| Baseline + pm + pc|||
+|Recording  | <audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
+|-|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
+| Baseline|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
+| Baseline + pc|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
+| Baseline + pm|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
+| Baseline + pm + pc|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio>|<audio id="audio" controls="" preload="none"><source id="w"  width="560" height="315" src="white.wav"> </audio> |
