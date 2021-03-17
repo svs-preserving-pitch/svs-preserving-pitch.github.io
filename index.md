@@ -15,3 +15,9 @@ The classifier integrates pitch prior, disentangling the phoneme and pitch infor
 Then, the outputs of  the pitch encoder and phoneme are summed together to pass through following decoder.
 Experiments indicate that the proposed SVS approach is capable of enhancing the performance of synthesizing sparse couples of phoneme and pitch,
 and can characterize the intrinsic structure of pitches to obtain better pitch synthesis accuracy against baseline.
+
+---
+## Some synthesized samples
+
+|Recording| Baseline | Baseline + pm | Baseline + pc | Baseline + pm + pc |
+|         |           |              |               |                 |
