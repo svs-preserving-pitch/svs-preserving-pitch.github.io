@@ -9,8 +9,7 @@
 <h1 align="center"> Pitch Preservation In Singing Voice Synthesis</h1>
 <p align="center"> Shujun Liu, Huayi Zhan, Ying Wu </p>
 <b>Abstract: </b>
-Suffering from limited singing voice corpus, existing advanced singing voice synthesis (SVS) methods that build encoder-decoder neural networks to directly generate spectrogram could lead to out-of-tune issues during inference phase. To attenuate this issues, this paper presents a novel acoustic model with independent pitch encoder and phoneme encoder, which disentangles the phoneme and pitch information from music score to fully utilize the corpus. Specifically, according to equal temperament theory, the pitch encoder is constrained by a pitch metric loss that maps distances between adjacent pitch inputs into corresponding frequency multiples between the encoder outputs. For the phoneme encoder, based on the analysis that same phonemes corresponding to varying pitches can produce similar pronunciations, the encoder is followed by an adversarially trained pitch classifier to enforce the identical phonemes with different pitches mapping into the same phoneme feature space. Then, the outputs of the two encoders are summed together to pass through following decoder in the acoustic model. Experimental results indicate that the proposed approach is capable of enhancing the synthesis performance, and can characterize the intrinsic structure of pitches to obtain better pitch synthesis accuracy against baseline system.
-
+Suffering from limited singing voice corpus, existed singing voice synthesis (SVS) methods that build encoder-decoder neural networks to directly generate spectrogram could lead to out-of-tune issues during inference phase. To attenuate this issues, this paper presents a novel acoustic model with independent pitch encoder and phoneme encoder, which disentangles the phoneme and pitch information from music score to fully utilize the corpus. Specifically, according to equal temperament theory, the pitch encoder is constrained by a pitch metric loss that maps distances between adjacent input pitches into corresponding frequency multiples between the encoder outputs. For the phoneme encoder, based on the analysis that same phonemes corresponding to varying pitches can produce similar pronunciations, this encoder is followed by an adversarially trained pitch classifier to enforce the identical phonemes with different pitches mapping into the same phoneme feature space. Then, the outputs of the two encoders are summed together to pass through following decoder in the acoustic model. Experimental results indicate that the proposed approaches can characterize intrinsic structure between pitch inputs to obtain better pitch synthesis accuracy and generated singing performance against baseline system.
 <hr>
 <h3 align="center">Some synthesized samples for subjective evaluation</h3>
 <table border="1" align ="center">
@@ -51,7 +50,7 @@ Suffering from limited singing voice corpus, existing advanced singing voice syn
 </td> 
 </tr>
 <tr>
-<td>Proposal1</td>
+<td>Proposal</td>
 <td> 
 <audio controls>
   <source src="audio/p1_1.wav">
@@ -69,7 +68,7 @@ Suffering from limited singing voice corpus, existing advanced singing voice syn
 </td> 
 </tr>
 <tr>
-<td>Proposal2</td>
+<td>Proposal-pm</td>
 <td> 
 <audio controls>
   <source src="audio/p2_1.wav">
@@ -90,7 +89,7 @@ Suffering from limited singing voice corpus, existing advanced singing voice syn
 </tr>
 <tr>
 
-<td>Proposal3</td>
+<td>Proposal-pc</td>
 <td> 
 <audio controls>
   <source src="audio/p3_1.wav">
@@ -110,7 +109,7 @@ Suffering from limited singing voice corpus, existing advanced singing voice syn
 </tr>
 <tr>
 
-<td>Proposal4</td>
+<td>Proposal-pc-pm</td>
 <td> 
 <audio controls>
   <source src="audio/p4_1.wav">
